@@ -1,0 +1,30 @@
+.center {
+    display: flex; 
+    padding: 5vw; 
+    height: 20vw; 
+ }
+
+ #randomFact{
+    overflow-wrap: break-word; 
+    word-wrap: break-word;
+ }
+
+ .new{
+    height: 3rem;
+ }
+
+ .banner{
+    width:max-content;
+    white-space: nowrap;
+    align-items: flex-start;
+    animation: marqueeRight 10s infinite linear;
+ }
+
+ @keyframes marqueeRight{
+    0%{
+      transform: translateX(0px);
+    }
+    100%{
+      transform: translateX(1500px);
+    }
+  }
